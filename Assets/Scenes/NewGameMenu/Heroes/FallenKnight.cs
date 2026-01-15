@@ -1,18 +1,13 @@
+using Microsoft.Unity.VisualStudio.Editor;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class FallenKnight : MonoBehaviour
+namespace Heroes
 {
-    // Start is called before the first frame update
-    void Start()
+    internal class FallenKnight : Hero
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        public FallenKnight(Image heroIcon, GameObject heroModel) : base(heroIcon, heroModel)
+        {
+        }
     }
 }

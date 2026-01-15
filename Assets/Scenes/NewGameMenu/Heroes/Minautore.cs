@@ -1,18 +1,14 @@
+using Microsoft.Unity.VisualStudio.Editor;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Minautore : MonoBehaviour
+namespace Heroes
 {
-    // Start is called before the first frame update
-    void Start()
+    internal class Minautore : Hero
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        public Minautore(Image heroIcon, GameObject heroModel) : base(heroIcon, heroModel)
+        {
+        }
     }
 }

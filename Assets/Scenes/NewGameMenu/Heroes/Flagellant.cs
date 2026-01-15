@@ -1,18 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class Flagellant : MonoBehaviour
+namespace Heroes
 {
-    // Start is called before the first frame update
-    void Start()
+    internal class Flagellant : Hero
     {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
