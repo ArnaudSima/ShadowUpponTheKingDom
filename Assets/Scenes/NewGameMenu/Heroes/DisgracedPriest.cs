@@ -1,10 +1,13 @@
+using Microsoft.Unity.VisualStudio.Editor;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 namespace Heroes
 {
-    public class DisgracedPriest 
+    internal class DisgracedPriest : Hero
     {
-
+        public DisgracedPriest(Image heroIcon, GameObject heroModel) : base(heroIcon, heroModel)
+        {
+        }
     }
 }

@@ -17,6 +17,6 @@ namespace Heroes
             this.HeroIcon = heroIcon;
             this.HeroModel = heroModel;
         }
-        public static List<Hero> HeroDisplayList = new List<Hero> { };
+        
     }
 }
